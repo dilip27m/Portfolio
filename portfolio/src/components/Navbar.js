@@ -7,27 +7,44 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const navLinks = [
-    { name: 'Home', path: '/' },
     { name: 'Projects', path: '/projects' },
     { name: 'Blogs', path: '/blogs' },
   ];
 
   return (
-    <nav className="bg-white shadow-md p-4">
-      <ul className="flex space-x-8 justify-center text-lg font-medium text-gray-700">
-        {navLinks.map((link) => (
-          <li key={link.path}>
-            <Link
-              href={link.path}
-              className={`transition cursor-pointer hover:text-blue-600 ${
-                pathname === link.path ? 'text-blue-600 font-semibold' : ''
-              }`}
-            >
-              {link.name}
-            </Link>
-          </li>
-        ))}
-      </ul>
+    <nav className="bg-black/20 backdrop-blur-md py-4 rounded-3xl w-4/5 mx-auto shadow-lg mt-4 border border-white/10">
+      <div className="max-w-6xl mx-auto px-4 flex justify-between items-center">
+        {/* Left: Portfolio logo */}
+        <Link
+        href="/"
+        className={` text-2xl font-bold tracking-wide hover:text-blue-400 transition ${
+          pathname !== '/' ? '' : 'text-blue-400 font-semibold'
+        }`}
+        >
+          Portfolio
+        </Link>
+
+        {/* Center: Navigation Links */}
+        <ul className="flex space-x-8 text-white text-lg font-medium">
+          {navLinks.map((link) => (
+            <li key={link.path}>
+              <Link
+                href={link.path}
+                className={`transition duration-200 pb-1 border-b-2 ${
+                  pathname === link.path
+                    ? 'border-blue-500 text-blue-400 font-semibold'
+                    : 'border-transparent hover:border-blue-500 hover:text-blue-300'
+                }`}
+              >
+                {link.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+
+        {/* Right: Empty spacer or add other icons/buttons if needed */}
+        <div className="w-24" />
+      </div>
     </nav>
   );
 }
