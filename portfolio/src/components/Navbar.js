@@ -12,7 +12,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-black/20 backdrop-blur-md py-4 rounded-3xl w-4/5 mx-auto shadow-lg mt-4 border border-white/10">
+    <nav className="bg-black/20 backdrop-blur-md py-4 rounded-3xl w-4/5 mx-auto shadow-lg mt-8 border border-white/10">
       <div className="max-w-6xl mx-auto px-4 flex justify-between items-center">
         {/* Left: Portfolio logo */}
         <Link

@@ -1,10 +1,66 @@
 // pages/index.js
+'use client';
 import { FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import Navbar from '../components/Navbar';
 import Image from 'next/image';
+import { useState } from "react";
 
 export default function Home() {
+
+  const [activeTab, setActiveTab] = useState("Work Experience");
+
+  const tabs = ["Work Experience", "Education", "Achievements"];
+
+  const renderTabContent = () => {
+    switch (activeTab) {
+      case "Work Experience":
+        return (
+          <div className="mt-6 space-y-4 text-white">
+            <div>
+              <h3 className="text-xl font-bold">Traboda</h3>
+              <p className="text-sm text-gray-400">Full Stack Engineer (April 2025 - Present)</p>
+              <p>Working on full stack development projects.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold">Dream Team</h3>
+              <p className="text-sm text-gray-400">Team Member (Feb 2025 - Present)</p>
+              <p>Collaborating on innovative projects.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold">Infosys</h3>
+              <p className="text-sm text-gray-400">Web Developer Intern (Nov 2024 - Jan 2025)</p>
+              <p>Worked on responsive web apps.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold">Antistrep</h3>
+              <p className="text-sm text-gray-400">Founder</p>
+              <p>Founded <a href="https://www.antistrep.com" className="text-blue-400 underline">Antistrep</a> to help individuals grow.</p>
+            </div>
+          </div>
+        );
+      case "Education":
+        return (
+          <div className="mt-6 text-white">
+            <p>B.Tech in Computer Science – [Your University], 2021-2025</p>
+            {/* Add more education details here */}
+          </div>
+        );
+      case "Achievements":
+        return (
+          <div className="mt-6 text-white">
+            <ul className="list-disc list-inside">
+              <li>Leetcode 150+ problems solved</li>
+              <li>Infosys Internship Certificate</li>
+              <li>Started Antistrep for student growth</li>
+            </ul>
+          </div>
+        );
+      default:
+        return null;
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gray-900 text-gray-200">
       <Navbar />
@@ -116,7 +172,7 @@ export default function Home() {
           </a>
         </div> */}
 
-      {/* Work Experience Section */}
+      Work Experience Section
       <div className="px-8 py-12 max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 border-b border-gray-700 pb-2">Work Experience</h2>
 
@@ -231,6 +287,34 @@ export default function Home() {
           </ul>
         </div>
       </div>
+
+
+      <div className="max-w-6xl mx-auto px-6 py-12">
+      <h2 className="text-3xl font-bold text-white mb-6">About Me</h2>
+
+      {/* Tab buttons */}
+      <div className="flex gap-4 mb-4">
+        {tabs.map((tab) => (
+          <button
+            key={tab}
+            onClick={() => setActiveTab(tab)}
+            className={`px-4 py-2 rounded-md font-medium ${
+              activeTab === tab
+                ? "bg-blue-600 text-white"
+                : "bg-gray-800 text-gray-300 hover:bg-gray-700"
+            }`}
+          >
+            {tab}
+          </button>
+        ))}
+      </div>
+
+      {/* Content area */}
+      <div className="bg-gray-900 p-6 rounded-lg shadow-md">
+        {renderTabContent()}
+      </div>
+    </div>
+
     </div>
   );
 }
