@@ -5,10 +5,10 @@ export const projects = [
       skills: "Next.js, Tailwind CSS",
       tags: ["Next.js", "Tailwind CSS", "Personal Website"],
       description: "This is my portfolio website, built using Next.js and Tailwind CSS. It showcases my skills, projects, and experiences in a modern and responsive design.",
-      image: "/images/projects/portfolio.png",
+      image: "/images/movietalks.png", // Replace with actual image path
       link: "", // Add GitHub or live link
       section: "Personal-projects",
-      status: "pending",
+      status: "Planned",
       date: "2024-12-01"
     },
     {
@@ -17,10 +17,10 @@ export const projects = [
       skills: "Next.js, Django, GraphQL, PostgreSQL",
       tags: ["Next.js", "Django", "GraphQL", "E-commerce"],
       description: "An e-commerce website built using Next.js for the frontend and Django with GraphQL for the backend. It features product listings, a shopping cart, and user authentication.",
-      image: "/images/projects/ecommerce.png",
-      link: "", // Add GitHub or live link
+      image: "/images/movietalks.png",
+      link: "https://chatgpt.com/c/6821e6b5-dc38-800e-aa75-4a87c7b1cc4a", // Add GitHub or live link
       section: "Personal-projects",
-      status: "pending",
+      status: "In Progress",
       date: "2025-01-10"
     },
     {
@@ -29,10 +29,11 @@ export const projects = [
       skills: "Next.js, Flask, SQLite3",
       tags: ["Next.js", "Flask", "Movie Reviews"],
       description: "A movie review website built with Next.js and Flask. Users can browse movies, read reviews, and submit their own.",
-      image: "/images/projects/movietalks.png",
-      link: "", // Add GitHub or live link
+      image: "/images/movietalks.png",
+      link: "https://chatgpt.com/c/6821e6b5-dc38-800e-aa75-4a87c7b1cc4a", // Add GitHub or live link
+      visit:"",
       section: "Personal-projects",
-      status: "pending",
+      status: "Completed",
       date: "2025-02-05"
     }
   ];

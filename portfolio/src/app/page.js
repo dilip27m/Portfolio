@@ -2,12 +2,15 @@
 import { FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import Navbar from '../components/Navbar';
+import Education from '../components/education';
+import WorkExperience from '../components/workExperience';
+import Achievements from '../components/Achievements';
 import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-900 text-gray-200">
-      <Navbar />
+    <div className="min-h-screen  text-gray-200">
+     
 
       {/* Hero Section */}
       <div className="px-8 py-40 max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10">
@@ -117,120 +120,18 @@ export default function Home() {
         </div> */}
 
       {/* Work Experience Section */}
-      <div className="px-8 py-12 max-w-6xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 border-b border-gray-700 pb-2">Work Experience</h2>
+      <WorkExperience/>
 
-        <div className="mb-8">
-          <div className="flex justify-between items-center">
-            <h3 className="text-xl font-semibold text-blue-400">Traboda</h3>
-            <p className="text-gray-400 text-sm">April 2025 - Present</p>
-          </div>
-          <p className="text-lg text-white">Full Stack Engineer</p>
-          <p className="text-gray-300 mt-2">
-            Currently working on full stack development projects, applying both frontend and backend skills to create comprehensive web solutions.
-          </p>
-        </div>
-
-        <div className="mb-8">
-          <div className="flex justify-between items-center">
-            <h3 className="text-xl font-semibold text-blue-400">Dream Team</h3>
-            <p className="text-gray-400 text-sm">February 2025 - Present</p>
-          </div>
-          <p className="text-lg text-white">Team Member</p>
-          <p className="text-gray-300 mt-2">
-            Contributing as a member of the Dream Team, collaborating on innovative projects and initiatives.
-          </p>
-        </div>
-
-        <div className="mb-8">
-          <div className="flex justify-between items-center">
-            <h3 className="text-xl font-semibold text-blue-400">Infosys</h3>
-            <p className="text-gray-400 text-sm">November 2024 - January 2025</p>
-          </div>
-          <p className="text-lg text-white">Web Developer Intern</p>
-          <p className="text-gray-300 mt-2">
-            Worked on web development projects, enhancing my skills in building responsive and functional web applications.
-          </p>
-        </div>
-
-        <div className="mb-8">
-          <div className="flex justify-between items-center">
-            <h3 className="text-xl font-semibold text-blue-400">Antistrep</h3>
-            <p className="text-gray-400 text-sm">Founder</p>
-          </div>
-          <p className="text-lg text-white">Founder & Leader</p>
-          <p className="text-gray-300 mt-2">
-            Founded Antistrep to help individuals break out of their comfort zones and transform their ideas into reality through coaching and support.
-          </p>
-          <a
-            href="https://www.antistrep.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-400 mt-4 inline-block"
-          >
-            Visit Antistrep Portfolio
-          </a>
-        </div>
-      </div>
-
+      {/* Projects Section */}
+      
       {/* Education Section */}
-      <div className="px-8 py-12 max-w-6xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 border-b border-gray-700 pb-2">Education</h2>
-
-        <div className="mb-8">
-          <div className="flex justify-between items-center">
-            <h3 className="text-xl font-semibold text-blue-400">Amrita University</h3>
-            <p className="text-gray-400 text-sm">2023 - Present</p>
-          </div>
-          <p className="text-lg text-white">Bachelor of Technology in Computer Science</p>
-          <p className="text-gray-300 mt-2">Currently pursuing my degree with a focus on software engineering and AI.</p>
-        </div>
-
-        <div className="mb-8">
-          <div className="flex justify-between items-center">
-            <h3 className="text-xl font-semibold text-blue-400">Narayana Junior College</h3>
-            <p className="text-gray-400 text-sm">2021 - 2023</p>
-          </div>
-          <p className="text-lg text-white">Intermediate MPC (Mathematics, Physics, Chemistry)</p>
-          <p className="text-gray-300 mt-2">Marks: 971/1000</p>
-        </div>
-
-        <div className="mb-8">
-          <div className="flex justify-between items-center">
-            <h3 className="text-xl font-semibold text-blue-400">Narayana Olympiad School</h3>
-            <p className="text-gray-400 text-sm">2019 - 2021</p>
-          </div>
-          <p className="text-lg text-white">High School</p>
-          <p className="text-gray-300 mt-2">Marks: 971/1000</p>
-        </div>
-      </div>
+      <Education/>
 
       {/* Achievements Section */}
-      <div className="px-8 py-12 max-w-6xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 border-b border-gray-700 pb-2">Achievements</h2>
+      <Achievements/>
 
-        <div className="mb-8">
-          <h3 className="text-xl font-semibold text-blue-400">JEE Mains</h3>
-          <ul className="text-lg text-white ml-6">
-            <li>General Category: Rank: 63,000 out of 12 Lakhs</li>
-          </ul>
-        </div>
-
-        <div className="mb-8">
-          <h3 className="text-xl font-semibold text-blue-400">JEE Advanced</h3>
-          <ul className="text-lg text-white ml-6">
-            <li>General Category: Rank 23,000 out of 2.5 Lakhs</li>
-            <li>EWS Category: Rank 3,000</li>
-          </ul>
-        </div>
-
-        <div className="mb-8">
-          <h3 className="text-xl font-semibold text-blue-400">COMEDK</h3>
-          <ul className="text-lg text-white ml-6">
-            <li>General Category: Rank: 2,800</li>
-          </ul>
-        </div>
-      </div>
+      {/* Footer */}
+      
     </div>
   );
 }
