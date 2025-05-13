@@ -43,11 +43,9 @@ export const projects = [
       id: 1,
       title: "Understanding React Hooks",
       description: "A deep dive into React Hooks, their benefits, and how to use them effectively in your React applications.",
-      image: "/images/blogs/react-hooks.png", // Optional — add later
+      image: "/images/movietalks.png", // Optional — add later
       link: "https://example.com/react-hooks", // Replace with real blog link
-      section: "Blogs",
-      status: "published",
-      tags: ["React", "Hooks", "JavaScript"],
+      section: "Technical",
       date: "2025-03-15"
     }
   ];

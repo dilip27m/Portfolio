@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { projects } from "../../Data/data";
 import ProjectCard from "../../components/project_comp";
-import Image from 'next/image';
+
 
 export default function Project() {
     const [statusFilter, setStatusFilter] = useState('All');
