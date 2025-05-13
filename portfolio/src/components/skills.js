@@ -1,5 +1,5 @@
 // components/SkillIcons.js
-
+"use client"
 import {
   SiHtml5, SiCss3, SiJavascript, SiReact, SiNextdotjs,
   SiTailwindcss, SiBootstrap, SiPostgresql, SiPython, SiC, SiHaskell,

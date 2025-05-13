@@ -1,11 +1,10 @@
 // pages/index.js
 import { FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
-import Navbar from '../components/Navbar';
 import Education from '../components/education';
 import WorkExperience from '../components/workExperience';
 import Achievements from '../components/Achievements';
-import Image from 'next/image';
+import Contact from '../components/contact';
 
 export default function Home() {
   return (
@@ -129,7 +128,7 @@ export default function Home() {
 
       {/* Achievements Section */}
       <Achievements/>
-
+      <Contact/>
       {/* Footer */}
       
     </div>

@@ -8,7 +8,11 @@ export default function Navbar() {
 
   const navLinks = [
     { name: 'Projects', path: '/projects' },
+    { name: 'Skills', path: '/skills' },
     { name: 'Blogs', path: '/blogs' },
+
+
+
   ];
 
   return (
@@ -17,7 +21,7 @@ export default function Navbar() {
         {/* Left: Portfolio logo */}
         <Link
         href="/"
-        className={` text-2xl font-bold tracking-wide hover:text-blue-400 transition ${
+        className={` text-2xl font-bold mx-6 tracking-wide hover:text-blue-400 transition ${
           pathname !== '/' ? '' : 'text-blue-400 font-semibold'
         }`}
         >
@@ -30,7 +34,7 @@ export default function Navbar() {
             <li key={link.path}>
               <Link
                 href={link.path}
-                className={`transition duration-200 pb-1 border-b-2 ${
+                className={`transition duration-200 pb-1  text-xl ${
                   pathname === link.path
                     ? 'border-blue-500 text-blue-400 font-semibold'
                     : 'border-transparent hover:border-blue-500 hover:text-blue-300'

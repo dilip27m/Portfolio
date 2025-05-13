@@ -117,5 +117,7 @@ No shadow-*	❌ No	No transition or glow
 shadow-md	✅ Yes	Default shadow, hover glow
 shadow-none	✅ Yes	No default shadow, clean look, hover glow works
 
+Tailwind's border-b-2 + hover:border-blue-500 creates a bottom border, which looks like an underline.
+
 # use react-icons to get all the icons 
 https://react-icons.github.io/react-icons/
