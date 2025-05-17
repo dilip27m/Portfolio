@@ -16,10 +16,10 @@ export default function Home() {
         {/* Text Section (80%) */}
         <div className="basis-[80%]">
           <h1 className="text-5xl sm:text-6xl font-extrabold text-white mb-4 leading-tight">
-            Hi, I'm <span className="text-blue-400">M. Dilip Kumar Reddy</span>
+            Hi, I&rsquo;m <span className="text-blue-400">M. Dilip Kumar Reddy</span>
           </h1>
           <p className="text-lg sm:text-xl text-gray-300 max-w-3xl">
-            I'm a Software Developer passionate about solving real-world problems and constantly learning cutting-edge technologies to build impactful solutions.
+            I&rsquo;m a Software Developer passionate about solving real-world problems and constantly learning cutting-edge technologies to build impactful solutions.
           </p>
           <p className="text-lg sm:text-xl text-gray-400 mt-6 max-w-3xl">
             I love building new things — not because of the impact they might create, but because of the joy of bringing ideas to life.
@@ -55,7 +55,7 @@ export default function Home() {
             <FaLinkedin />
           </a>
           <a
-            href="files/dilip's resume.pdf"
+            href="files/dilip&apos;s resume.pdf"
             download
             className="hover:text-blue-300"
             title="Download Resume"
