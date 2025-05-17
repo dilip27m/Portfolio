@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
 :root {
+  /* Light mode defaults */
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1a1a1a;
+  --accent: #3b82f6; /* blue-500 */
+  --accent-hover: #93c5fd; /* blue-300 */
+  --border: #e5e7eb;
 }
 
 @theme inline {
@@ -16,6 +20,9 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --accent: #2563eb; /* blue-600 */
+    --accent-hover: #1d4ed8; /* blue-700 */
+    --border: #374151;
   }
 }
 

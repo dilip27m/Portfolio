@@ -21,7 +21,7 @@ export const projects = [
       tags: ["Next.js", "Flask", "Movie Reviews"],
       description: "A movie review website built with Next.js and Flask. Users can browse movies, read reviews, and submit their own.",
       image: "/images/movietalks.png",
-      link: "https://chatgpt.com/c/6821e6b5-dc38-800e-aa75-4a87c7b1cc4a",
+      link: "https://github.com/dilip27m/MovieTalks",
       visit:"",
       section: "Personal-projects",
       status: "In Progress",

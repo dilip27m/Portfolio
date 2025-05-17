@@ -38,8 +38,8 @@ export default function Contact() {
   };
 
   return (
-    <div className="bg-white/3 backdrop-blur-md px-8 py-10 max-w-6xl mx-auto rounded-3xl border border-white/20 shadow-lg">
-      <h2 className="text-2xl font-bold mb-4 text-white">Contact Me</h2>
+    <div className="bg-white/80 dark:bg-white/5 backdrop-blur-md px-8 py-10 max-w-6xl mx-auto rounded-3xl border border-gray-300 dark:border-white/20 shadow-lg text-gray-900 dark:text-white">
+      <h2 className="text-2xl font-bold mb-4">Contact Me</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <input
@@ -49,7 +49,7 @@ export default function Contact() {
             required
             value={formData.email}
             onChange={handleChange}
-            className="mt-1 block w-full px-4 py-2 rounded-3xl border border-white/20 shadow-sm focus:ring-blue-400 focus:border-blue-500"
+            className="mt-1 block w-full px-4 py-2 rounded-3xl border border-gray-300 dark:border-white/20 shadow-sm focus:ring-blue-400 focus:border-blue-500 bg-white dark:bg-transparent text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500"
           />
         </div>
         <div>
@@ -60,16 +60,20 @@ export default function Contact() {
             rows={4}
             value={formData.message}
             onChange={handleChange}
-            className="mt-1 px-4 py-3 block w-full rounded-3xl border border-white/20 shadow-sm hover:ring-blue-400 focus:ring-blue-400 focus:border-blue-400"
+            className="mt-1 px-4 py-3 block w-full rounded-3xl border border-gray-300 dark:border-white/20 shadow-sm focus:ring-blue-400 focus:border-blue-500 bg-white dark:bg-transparent text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500"
           />
         </div>
         <button
           type="submit"
-          className="w-full bg-blue-400 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-3xl"
+          className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-3xl transition duration-200"
         >
           Send
         </button>
-        <div className="justify-items-center">{status && <p className="text-white text-md  mt-2">{status}  Thanks for contacting! I&apos;ll get back to you soon..</p>}</div>
+        {status && (
+          <p className="text-center text-sm text-gray-700 dark:text-gray-300 mt-2">
+            {status}
+          </p>
+        )}
       </form>
     </div>
   );
