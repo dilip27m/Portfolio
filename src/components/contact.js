@@ -69,7 +69,7 @@ export default function Contact() {
         >
           Send
         </button>
-        <div className="justify-items-center">{status && <p className="text-white text-md  mt-2">{status}  Thanks for contacting! I'll get back to you soon.</p>}</div>
+        <div className="justify-items-center">{status && <p className="text-white text-md  mt-2">{status}  Thanks for contacting! I&apos;ll get back to you soon.</p>}</div>
       </form>
     </div>
   );

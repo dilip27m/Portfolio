@@ -1,4 +1,4 @@
-# mistake related undefined data and trying to render and condition rendering 
+<!-- # mistake related undefined data and trying to render and condition rendering 
 
 If project.visit is not present (i.e., undefined), then:
 
@@ -120,4 +120,4 @@ shadow-none	✅ Yes	No default shadow, clean look, hover glow works
 Tailwind's border-b-2 + hover:border-blue-500 creates a bottom border, which looks like an underline.
 
 # use react-icons to get all the icons 
-https://react-icons.github.io/react-icons/
+https://react-icons.github.io/react-icons/ -->
