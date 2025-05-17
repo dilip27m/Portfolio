@@ -28,7 +28,7 @@ export default function Home() {
           {/* Social Icons */}
           <div className="flex justify-center md:justify-start gap-6 mt-8 text-2xl">
           <a
-            href="https://github.com/your-github"
+            href="https://github.com/dilip27m"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-400"
@@ -37,7 +37,7 @@ export default function Home() {
             <FaGithub />
           </a>
           <a
-            href="https://leetcode.com/your-leetcode"
+            href="https://leetcode.com/u/dilip29/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-orange-400"
@@ -46,7 +46,7 @@ export default function Home() {
             <SiLeetcode />
           </a>
           <a
-            href="https://linkedin.com/in/your-linkedin"
+            href="https://www.linkedin.com/in/mdilipkumarreddy/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-500"
@@ -55,7 +55,7 @@ export default function Home() {
             <FaLinkedin />
           </a>
           <a
-            href="/resume.pdf"
+            href="files/dilip's resume.pdf"
             download
             className="hover:text-blue-300"
             title="Download Resume"
@@ -68,55 +68,6 @@ export default function Home() {
 
         
       </div>
-
-      {/* Uncomment if needed: Profile Image */}
-      {/* <div className="basis-[20%] hidden md:block">
-        <Image
-          src="/your-photo.jpg"
-          alt="Profile Picture"
-          width={160}
-          height={160}
-          className="rounded-xl object-cover shadow-lg"
-        />
-      </div> */}
-              {/* Social Icons
-          <div className="flex justify-center md:justify-start gap-6 mt-4 text-2xl">
-          <a
-            href="https://github.com/your-github"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-gray-400"
-            title="GitHub"
-          >
-            <FaGithub />
-          </a>
-          <a
-            href="https://leetcode.com/your-leetcode"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-orange-400"
-            title="LeetCode"
-          >
-            <SiLeetcode />
-          </a>
-          <a
-            href="https://linkedin.com/in/your-linkedin"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-blue-500"
-            title="LinkedIn"
-          >
-            <FaLinkedin />
-          </a>
-          <a
-            href="/resume.pdf"
-            download
-            className="hover:text-blue-300"
-            title="Download Resume"
-          >
-            <FaFileDownload />
-          </a>
-        </div> */}
 
       {/* Work Experience Section */}
       <WorkExperience/>

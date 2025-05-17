@@ -24,13 +24,16 @@ export default function ProjectComp({ project }) {
         hover:border-white/50 hover:scale-105 transition-all duration-300 ease-in-out 
         flex flex-col justify-between min-h-[400px] 
         shadow-none hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] "> 
-        <Image 
-                src={project.image} 
-                alt={project.title}
-                width={400}
-                height={200}
-                className="rounded-lg mb-4"
-            />
+<div className="relative h-48 w-full rounded-lg overflow-hidden mb-4">
+  <Image
+    src={project.image}
+    alt={project.title}
+    fill
+    className="object-cover"
+    sizes="(max-width: 768px) 100vw, 400px"
+  />
+</div>
+
             <div className='flex justify-between '>
             <h3 className="text-xl font-bold mb-2 text-white">{project.title}</h3>
             <div>

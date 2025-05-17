@@ -36,7 +36,7 @@ export default function WorkExperience(){
                   </p>
                 </div>
         
-                <div className="mb-8">
+                {/* <div className="mb-8">
                   <div className="flex justify-between items-center">
                     <h3 className="text-xl font-semibold text-blue-400">Antistrep</h3>
                     <p className="text-gray-400 text-sm">Founder</p>
@@ -53,7 +53,7 @@ export default function WorkExperience(){
                   >
                     Visit Antistrep Portfolio
                   </a>
-                </div>
+                </div> */}
               </div>
         
     )

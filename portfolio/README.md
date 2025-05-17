@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💼 M. Dilip Kumar Reddy — Portfolio
 
-## Getting Started
+Welcome to my personal portfolio! I'm a passionate software developer, and a continuous learner committed to solving real-world problems using technology. This portfolio is a reflection of my journey — from projects and skills to blogs and professional achievements.
 
-First, run the development server:
+## 🌐 Live Portfolio  
+[Visit my Portfolio](https://your-portfolio-link.com)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 About Me
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Hi! I'm **M. Dilip Kumar Reddy**, a B.Tech student and software enthusiast who loves building impactful tech solutions. From working on real-time web applications to contributing to agile teams, I enjoy exploring various tech stacks and solving problems.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧩 Sections in My Portfolio
 
-To learn more about Next.js, take a look at the following resources:
+### 📂 Projects
+- A collection of projects I've built across web development, AI tools, and full-stack applications.
+- Each project includes:
+  - Title
+  - Description
+  - Tech Stack
+  - GitHub Link
+  - Live Demo (if available)
+  - Link to a detailed page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🛠️ Skills
+- **Languages**: Python, JavaScript, HTML, CSS, SQL
+- **Frameworks**: Django, Flask, React, Next.js
+- **Tools & Platforms**: 
+  - Git, GitHub
+  - Figma, Canva
+  - AI Tools: ChatGPT, Claude, DeepSeek, Lovable, Perplexity, Blackbox
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ✍️ Blogs
+- I write about:
+  - Development and productivity tips
+  - Tutorials and how-to guides
+  - My experiences with AI tools and real-world projects
 
-## Deploy on Vercel
+### 🎓 Education & Achievements
+- **10th Grade**: 10/10 CGPA (COVID batch)
+- **12th Grade**: 971/1000
+- **Competitive Exams**: Qualified JEE Mains & Advanced
+- **B.Tech CGPA**: 9.23
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 💼 Work Experience
+- **Infosys Springboard Intern**  
+  - Built an app connecting customers and trainers  
+  - Used Flask, HTML, CSS, JavaScript, SQLite  
+  - Implemented slot booking and real-time email notifications  
+  - Played the role of Scrum Master using Agile methodology
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Traboda Intern**  
+  - Member of the **Dream Team**  
+  - Contributed to development of innovative solutions
+
+
+---
+
+## 📫 Contact Me
+- 📧 Email: dilipkumarreddym2005@gmail.com  
+- 🔗 LinkedIn: [linkedin.com/in/mdilipkumarreddy](https://linkedin.com/in/mdilipkumarreddy)  
+- 🐙 GitHub: [github.com/dilip29m](https://github.com/dilip29m)
+
+---
+
+> *Thank you for visiting my portfolio! Feel free to explore and reach out if you'd like to collaborate or just say hi.*
