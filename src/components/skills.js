@@ -109,7 +109,7 @@ const sections = [
 
   // ========== AI & Coding Platforms ==========
   {
-    title: "AI Tools",
+    title: "My Mentors, guide, counselors and teamates",
     items: [
       { name: "ChatGPT", icon: <Image src="/images/ai-icons/chatgpt.png" alt="ChatGPT" width={32} height={32} className="w-10 h-10 object-contain" /> },
       { name: "Claude", icon: <Image src="/images/ai-icons/claude.png" alt="Claude" width={32} height={32} className="w-10 h-10 object-contain" /> },

@@ -27,6 +27,19 @@ export const projects = [
       status: "In Progress",
       date: "2025-02-05"
     },
+    {
+      id: 3,
+      title: "PhishSheild",
+      skills: "ML, Next.js, Flask, SQLite3, Extenstion",
+      description: "PhishSheild is a browser extension that detects phishing websites using machine learning algorithms. It provides real-time protection by analyzing URLs and website content.",
+      image: "/images/phishing.png",
+      link: "https://github.com/dilip27m/phishing",
+      visit:"",
+      section: "hackathon-projects",
+      status: "Completed",
+      start_date: "23-05-2025",
+      end_date: "24-05-2025",
+    },
     // {
     //   id:3,
     //   title:"Blood bank",
