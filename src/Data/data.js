@@ -99,6 +99,15 @@ export const projects = [
       link: "https://medium.com/@mdilip2909/the-mindset-trap-why-hype-shapes-how-we-think-0d9d05c09084", // Replace with real blog link
       section: "Non Technical",
       // date: "2025-03-15"
+    },
+    {
+      id: 4,
+      title: "The dangerous game - Phishing",
+      description: "Have you ever received an email that looked suspicious, asking you to click a link or provide personal information?",
+      image: "/images/phishingblog.png", // Optional — add later
+      link: "https://medium.com/@mdilip2909/the-dangerous-game-phishing-03d86af8fad8", // Replace with real blog link
+      section: "Technical",
+      date: "2025-05-25"
     }
     
 
