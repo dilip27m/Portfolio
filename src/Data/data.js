@@ -101,7 +101,7 @@ export const projects = [
       // date: "2025-03-15"
     },
     {
-      id: 4,
+      id: 6,
       title: "The dangerous game - Phishing",
       description: "Have you ever received an email that looked suspicious, asking you to click a link or provide personal information?",
       image: "/images/phishingblog.png", // Optional — add later
