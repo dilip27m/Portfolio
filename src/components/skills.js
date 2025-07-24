@@ -107,18 +107,18 @@ const sections = [
     ],
   },
 
-  // ========== AI & Coding Platforms ==========
-  {
-    title: "My Mentors, guide, counselors and teamates",
-    items: [
-      { name: "ChatGPT", icon: <Image src="/images/ai-icons/chatgpt.png" alt="ChatGPT" width={32} height={32} className="w-10 h-10 object-contain" /> },
-      { name: "Claude", icon: <Image src="/images/ai-icons/claude.png" alt="Claude" width={32} height={32} className="w-10 h-10 object-contain" /> },
-      { name: "Copilot", icon: <Image src="/images/ai-icons/copilot.png" alt="Copilot" width={32} height={32} className="w-10 h-10 object-contain" /> },
-      { name: "Deepseek", icon: <Image src="/images/ai-icons/deepseek.png" alt="Deepseek" width={32} height={32} className="w-10 h-10 object-contain" /> },
-      { name: "Gemini", icon: <Image src="/images/ai-icons/gemini.png" alt="Gemini" width={32} height={32} className="w-10 h-10 object-contain" /> },
-      { name: "Perplexity", icon: <Image src="/images/ai-icons/perplexity.png" alt="Perplexity" width={32} height={32} className="w-12 h-12 object-contain" /> },
-    ],
-  },
+  
+  // {
+  //   title: "My Mentors, guide, counselors and teamates",
+  //   items: [
+  //     { name: "ChatGPT", icon: <Image src="/images/ai-icons/chatgpt.png" alt="ChatGPT" width={32} height={32} className="w-10 h-10 object-contain" /> },
+  //     { name: "Claude", icon: <Image src="/images/ai-icons/claude.png" alt="Claude" width={32} height={32} className="w-10 h-10 object-contain" /> },
+  //     { name: "Copilot", icon: <Image src="/images/ai-icons/copilot.png" alt="Copilot" width={32} height={32} className="w-10 h-10 object-contain" /> },
+  //     { name: "Deepseek", icon: <Image src="/images/ai-icons/deepseek.png" alt="Deepseek" width={32} height={32} className="w-10 h-10 object-contain" /> },
+  //     { name: "Gemini", icon: <Image src="/images/ai-icons/gemini.png" alt="Gemini" width={32} height={32} className="w-10 h-10 object-contain" /> },
+  //     { name: "Perplexity", icon: <Image src="/images/ai-icons/perplexity.png" alt="Perplexity" width={32} height={32} className="w-12 h-12 object-contain" /> },
+  //   ],
+  // },
   {
     title: "Coding Practice",
     items: [
